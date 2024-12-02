@@ -1,18 +1,11 @@
-# Lexical Ambiguity Resolver: Few-Shot Prompt-Based Word Sense Disambiguation
+# GLOSSGPT Few-Shot Prompt-Based Word Sense Disambiguation
 
 ## Table of Contents
 
 - [Introduction](#introduction)  
 - [Features](#features)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-  - [Preparing the Environment](#preparing-the-environment)  
-  - [Running the Model](#running-the-model)  
-  - [Parameters](#parameters)  
-- [Results](#results)  
-- [Repository Structure](#repository-structure)  
-- [License](#license)  
-- [Citation](#citation)  
+
 
 ---
 
@@ -36,3 +29,19 @@ Lexical ambiguity poses significant challenges in natural language processing (N
    ```bash
    git clone https://github.com/<your-repo-name>/lexical-ambiguity-resolver.git
    cd lexical-ambiguity-resolver
+
+2. **Install dependencies**
+  ```bash
+   pip install -r requirements.txt
+```
+
+3. Preparing the Environment
+   Obtain access to GPT-4-Turbo through OpenAI.
+```bash
+OPENAI_API_KEY="your_openai_api_key"
+```
+
+
+
+
+
