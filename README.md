@@ -1,18 +1,38 @@
-#Lexical Ambiguity Resolver: Prompt-Based Word Sense Disambiguation (WSD)
+# Lexical Ambiguity Resolver: Few-Shot Prompt-Based Word Sense Disambiguation
 
-##Overview
-This repository contains the implementation and resources for the paper: "Prompt-Based Word Sense Disambiguation using Few-Shot Techniques". The project focuses on addressing lexical ambiguity in computational linguistic tasks by leveraging advanced prompting techniques for Word Sense Disambiguation (WSD). Unlike traditional fine-tuning approaches, our method employs few-shot Chain of Thought (COT) prompts with GPT-4-Turbo and a knowledgebase retriever to achieve state-of-the-art results.
+## Table of Contents
 
-##Key Contributions
-No Fine-Tuning Required: Utilizes prompt engineering instead of model fine-tuning for task-specific adaptations.
-Few-Shot Chain of Thought (COT): Employs advanced COT prompting to enhance reasoning for sense prediction.
-Knowledgebase Integration: Incorporates external knowledgebases as retrievers for enriching context and supporting sense definitions with synonyms.
-State-of-the-Art Results: Breaks the 90% F1 score barrier on the FEWS dataset and demonstrates competitive performance on SemEval and Senseval datasets.
+- [Introduction](#introduction)  
+- [Features](#features)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+  - [Preparing the Environment](#preparing-the-environment)  
+  - [Running the Model](#running-the-model)  
+  - [Parameters](#parameters)  
+- [Results](#results)  
+- [Repository Structure](#repository-structure)  
+- [License](#license)  
+- [Citation](#citation)  
 
-##Features
-Prompt Design: Advanced contextual parameters crafted for guiding the model's inference towards accurate sense prediction.
-Dataset Compatibility: Pre-configured for the following datasets:
-FEWS
-SemEval
-Senseval
-Efficiency: Reduces the computational overhead associated with fine-tuning while delivering superior results.
+---
+
+## Introduction
+
+Lexical ambiguity poses significant challenges in natural language processing (NLP) tasks such as translation and question answering. This repository implements a **few-shot Chain of Thought (COT) prompting technique** with **GPT-4-Turbo** for **Word Sense Disambiguation (WSD)**. The approach eliminates the need for model fine-tuning by employing advanced prompts and integrating knowledgebases for context enrichment. This technique has achieved state-of-the-art performance, surpassing 90% F1 on the **FEWS dataset**.
+
+---
+
+## Features
+
+- **Prompt-Driven WSD**: No fine-tuning required, enabling rapid deployment for specific tasks.  
+- **Knowledgebase Support**: External retrievers enhance sense prediction with synonyms and context.  
+- **High Performance**: Sets a new benchmark on FEWS, with competitive results on SemEval and Senseval datasets.  
+
+---
+
+## Installation
+
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/<your-repo-name>/lexical-ambiguity-resolver.git
+   cd lexical-ambiguity-resolver
