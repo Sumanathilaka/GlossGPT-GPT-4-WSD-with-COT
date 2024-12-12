@@ -41,6 +41,16 @@ Lexical ambiguity poses significant challenges in natural language processing (N
 OPENAI_API_KEY="your_openai_api_key"
 ```
 
+## Proposed Pipelines
+
+1. Fewshot COT prompting
+![Alt text](Gloss GPT Pipeline.png)
+
+2. Predict and Verify Approach
+![Alt text](predictverify.png)
+   
+3. Iterative Binary Classification
+![Alt text](iterativeBC.png)
 
 
 
