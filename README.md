@@ -52,6 +52,10 @@ OPENAI_API_KEY="your_openai_api_key"
 3. Iterative Binary Classification
 ![Alt text](iterativeBC.png)
 
+4. Proposed Knowledge base Structure
+   ![Alt text](KB.png)
+  
+
 
 
 
