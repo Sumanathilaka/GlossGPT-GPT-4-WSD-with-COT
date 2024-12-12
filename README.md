@@ -44,7 +44,7 @@ OPENAI_API_KEY="your_openai_api_key"
 ## Proposed Pipelines
 
 1. Fewshot COT prompting
-![Alt text](Gloss GPT Pipeline.png)
+![Alt text](GlossGPTPipeline.png)
 
 2. Predict and Verify Approach
 ![Alt text](predictverify.png)
