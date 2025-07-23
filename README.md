@@ -55,6 +55,8 @@ OPENAI_API_KEY="your_openai_api_key"
 4. Proposed Knowledge base Structure
    ![Alt text](KB.png)
   
+## Acknowledgement
+We acknowledge the support from OpenAI Researcher Access Program for providing credits to support this project's development.
 
 
 
