@@ -58,6 +58,18 @@ OPENAI_API_KEY="your_openai_api_key"
 ## Acknowledgement
 We acknowledge the support from OpenAI Researcher Access Program for providing credits to support this project's development.
 
+## Citation
+
+```bibtex
+@article{sumanathilaka2025glossgpt,
+  title={GlossGPT: GPT for Word Sense Disambiguation using Few-shot Chain-of-Thought Prompting},
+  author={Sumanathilaka, Deshan and Micallef, Nicholas and Hough, Julian},
+  journal={Procedia Computer Science},
+  volume={257},
+  pages={785--792},
+  year={2025},
+  publisher={Elsevier}
+}
 
 
 
